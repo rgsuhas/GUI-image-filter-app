@@ -3,6 +3,10 @@ from PIL import Image
 import numpy as np
 import cv2
 from io import BytesIO
+import subprocess
+
+# Run setup.sh to install necessary packages
+subprocess.call(['./setup.sh'])
 
 # Set page configuration
 st.set_page_config(page_title="Image Filter Tool", layout="centered", initial_sidebar_state="collapsed")
