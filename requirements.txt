@@ -1,1 +1,5 @@
-streamlit
+streamlit==1.26.0
+pillow==9.4.0
+numpy>=1.24.0
+opencv-python==4.8.0.74
+opencv-contrib-python==4.8.0.74
