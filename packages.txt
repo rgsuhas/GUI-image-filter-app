@@ -2,3 +2,5 @@ libjpeg-dev
 zlib1g-dev
 libpng-dev
 libfreetype6-dev
+libgl1
+libglib2.0-0
